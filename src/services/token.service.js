@@ -26,7 +26,7 @@ const setUser = (user) => {
       }),
       {
         path: "/",
-        expires: new Date(Date.now() + 86400), // 24*60*60 = 1 day
+        expires: new Date(Date.now() + 24 * 60 * 60 * 1000), // 24*60*60 = 1 day
       }
     );
   } else {
