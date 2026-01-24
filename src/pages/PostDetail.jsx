@@ -50,7 +50,7 @@ const PostDetail = () => {
   };
   return (
     <div className="post-page min-h-full min-w-full items-center justify-center p-4 pt-20">
-      <div className="bg-white p-8 rounded-b-lg shadow-lg max-4xl w-full">
+      <div className="bg-black p-8 rounded-b-lg shadow-lg max-4xl w-full">
         <h1 className="text-3xl font-bold mb-4 text-grey-800">{post?.title}</h1>
         <div className="text-grey-600 mb-4 text-center">
           <time className="block mb-2">{post?.createdAt}</time>

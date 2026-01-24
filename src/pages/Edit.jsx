@@ -75,7 +75,7 @@ const Edit = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center p-6 pt-20">
-      <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-2xl">
+      <div className="bg-black p-8 rounded-lg shadow-lg w-full max-w-2xl">
         <h1 className="text-2xl font-bold mb-6 text-center">Edit Post</h1>
 
         <form onSubmit={handleSubmit}>
