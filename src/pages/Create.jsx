@@ -26,7 +26,7 @@ const Create = () => {
 
   const handleContentChange = (value) => {
     setContent(value);
-    setPost({ ...post, content: content });
+    setPost({ ...post, content: value });
   };
 
   const resetForm = () => {
@@ -98,6 +98,7 @@ const Create = () => {
       console.error("Update post error:", error);
     }
   };
+
 
   return (
     <div className="min-h-screen flex items-center justify-center p-6 bg-base-200">
